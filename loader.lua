@@ -13,7 +13,7 @@ pcall(function()
 end)
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "lumber-incKey"
+gui.Name = "Refinerry-Cave2Key"
 gui.ResetOnSpawn = false
 gui.Parent = CoreGui
 
