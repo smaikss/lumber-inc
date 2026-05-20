@@ -129,7 +129,7 @@ btn.MouseButton1Click:Connect(function()
         wait(0.7)
         gui:Destroy()
         -- Завантаження твого основного скрипта з GitHub
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/smaikss/umber-inc/main/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/smaikss/lumber-inc/main/main.lua"))()
     elseif response == "EXPIRED" then
         status.Text = "❌ Key expired"
     else
