@@ -7,8 +7,8 @@ local DISCORD_LINK = "https://discord.gg/JdTdKv5mdb"
 
 -- Очищення старого GUI, якщо він залишився після попереднього запуску
 pcall(function()
-    if CoreGui:FindFirstChild("Refinerry-Cave2Key") then
-        CoreGui.RefinerryCave2Key:Destroy()
+    if CoreGui:FindFirstChild("Key") then
+        CoreGui.Key:Destroy()
     end
 end)
 
